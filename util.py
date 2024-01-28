@@ -22,9 +22,11 @@ def readFromFileAndGenerateArray(filename):
     arr.append(word)
   return arr
 
+# Remove duplicates from array
 def removeDuplicatesInArray(arr):
   return list(set(arr))
 
+# Get the different letter count of 2 words
 def getDiffCountOfTwoWords(str1, str2):
   diff_count = 0
   if abs(len(str1) - len(str2))>1:
@@ -53,25 +55,12 @@ def getDiffCountOfTwoWords(str1, str2):
           else:
             diff_count = 2
           return diff_count
-    """
-    kabba
-    kaba
-
-    tek tek harflere bak uzunun len for u içinde,
-    farklı gördüğünde bunu cıkar uzundan ve tekrar compare et.
-    Fark varsa ikisi farklı demektir.
-
-    Eğer son karakterdeki fark boş chara kadar her sey aynı
-    ama sadece o son char boş OLAMAZ. Zaten bu aynı demektir.
-    Yukarlarda kontrol ediliyor bu case
-    """
-
   return diff_count
 
+# Check the elements in the array
 def checkElementsInArray(arr):
   arr2 = []
   for a in arr:
-
     if len(a)<4:
       print('ERROR. Too short:', a)
 
@@ -85,37 +74,9 @@ def checkElementsInArray(arr):
           if getDiffCountOfTwoWords(a,a2)<2:
             print('ERROR. Words are similar:', a, a2)
     arr2.append(a)
-
     for c in a:
       if c.isupper():
         print('ERROR. Contains capital letter:', a)
         break
     if 'â' in a or 'ı' in a or 'ğ' in a or 'ü' in a or 'ş' in a or ' ' in a or 'ö' in a or 'ç' in a or ':' in a  or '_' in a:
       print('ERROR. Contains a non-english letter or a sign:', a)
-
-
-'''
-main_words = []
-other_words = []
-to_be_added = []
-with open("v9_v1others_added.txt") as f: 
-  mylist = f.read().splitlines()
-  for line in mylist:
-    main_words.append(line)
-
-with open("others.txt") as f: 
-  mylist = f.read().splitlines()
-  for line in mylist:
-    other_words.append(line)
-
-  
-  for w2 in other_words:
-    if w2 in main_words:
-      continue
-    else:
-      to_be_added.append(w2)
-
-  with open('others_tobeadded.txt', 'w') as output_file:
-    for w in to_be_added:
-      output_file.write(w+'\n')
-'''
