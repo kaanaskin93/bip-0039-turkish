@@ -409,7 +409,6 @@ kahraman
 kahve
 kalan
 kalite
-kalkan
 kalori
 kalp
 kalsiyum
@@ -663,7 +662,6 @@ orta
 ortopedi
 otantik
 otel
-otomobil
 oturum
 oysa
 oyun
@@ -782,7 +780,6 @@ sersem
 sert
 serum
 servet
-servis
 sessiz
 sevgili
 sevimli
