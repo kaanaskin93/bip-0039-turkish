@@ -9,3 +9,5 @@ Yapılması gereken kontroller:
 - Kelimelerde boşluk olmamalı
 - Eş anlamlı kelimeler olabildiğince kullanılmamalı.
 - Türkçe kelimelerde en az 2 harf farklı olacaktır.
+
+Diğer dillerdeki kelimelere ve İngilizce dilindeki orijinal kelimelere şuradan ulaşılabilir: https://github.com/bitcoin/bips/tree/master/bip-0039
