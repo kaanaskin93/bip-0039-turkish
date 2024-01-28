@@ -10,4 +10,4 @@ Kurallar:
 - Eş anlamlı kelimeler olabildiğince kullanılmamalı.
 - Türkçe kelimelerde en az 2 harf farklı olacaktır.
 
-Diğer dillerdeki kelimelere ve İngilizce dilindeki orjinal kelimelere şuradan ulaşılabilir: https://github.com/bitcoin/bips/tree/master/bip-0039
+Diğer dillerdeki kelimelere ve İngilizce dilindeki orjinal kelimelere şuradan ulaşılabilir: https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md
