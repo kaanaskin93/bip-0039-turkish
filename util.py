@@ -14,7 +14,7 @@ def writeToFile(arr):
   print('File created: '+ filename)
 
 # Read words from input file and create the array full of those
-def readFromFileAndGenerateArray(filename):
+def readFromTXTFileAndGenerateArray(filename):
   arr = []
   with open(filename ,'r') as file:
     words = file.read().splitlines()

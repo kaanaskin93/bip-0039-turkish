@@ -1,5 +1,3 @@
-from util import checkElementsInArray
+from util import readFromTXTFileAndGenerateArray, checkElementsInArray
 
-arr = ['abcd', 'abEd', 'ojfgş', 'Efâ', 'abcd', 'abcde', 'acde','kalan', 'alan','kalkan', 'allan', 'allkan', 'kallkan']
-
-checkElementsInArray(arr)
+checkElementsInArray(readFromTXTFileAndGenerateArray('v11.txt'))
