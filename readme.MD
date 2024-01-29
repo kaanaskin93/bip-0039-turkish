@@ -10,6 +10,8 @@ Kurallar:
 - Eş anlamlı kelimeler olabildiğince kullanılmamalıdır.
 - Türkçe kelimelerde en az 2 harf farklı olacaktır.(keman✅ - kemer✅ - kenar✅, tepe✅ - tepki✅ - terfi✅ - tere🚫 )
 
-Diğer dillerdeki kelimelere ve İngilizce dilindeki orjinal kelimelere other_languages klasöründen ulaşılabilir.
+Diğer dillerdeki kelimelere ve İngilizce dilindeki orjinal kelimelere other_languages klasöründen ulaşılabilir: https://github.com/efecini-plentific/bip-0039-turkish/tree/master/other_languages
 
 Eklenmiş kelimelerin son haline şuradan ulaşılabilir: https://github.com/efecini-plentific/bip-0039-turkish/blob/master/do_not_change/v11_checked.txt
+
+Kelimelerin daha önceki versiyonlarına şuradan ulaşabilirsiniz. https://github.com/efecini-plentific/bip-0039-turkish/tree/master/do_not_change
