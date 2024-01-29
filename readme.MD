@@ -10,4 +10,4 @@ Kurallar:
 - Eş anlamlı kelimeler olabildiğince kullanılmamalıdır.
 - Türkçe kelimelerde en az 2 harf farklı olacaktır.(keman✅ - kemer✅ - kenar✅, tepe✅ - tepki✅ - terfi✅ - tere🚫 )
 
-Diğer dillerdeki kelimelere ve İngilizce dilindeki orjinal kelimelere şuradan ulaşılabilir: https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md
+Diğer dillerdeki kelimelere ve İngilizce dilindeki orjinal kelimelere other_languages dosyasından ulaşılabilir.
