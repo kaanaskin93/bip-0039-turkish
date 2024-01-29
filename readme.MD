@@ -10,4 +10,4 @@ Kurallar:
 - Eş anlamlı kelimeler olabildiğince kullanılmamalıdır.
 - Türkçe kelimelerde en az 2 harf farklı olacaktır.(keman✅ - kemer✅ - kenar✅, tepe✅ - tepki✅ - terfi✅ - tere🚫 )
 
-Diğer dillerdeki kelimelere ve İngilizce dilindeki orjinal kelimelere other_languages dosyasından ulaşılabilir.
+Diğer dillerdeki kelimelere ve İngilizce dilindeki orjinal kelimelere other_languages klasöründen ulaşılabilir.
