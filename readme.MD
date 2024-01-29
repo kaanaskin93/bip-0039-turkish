@@ -9,6 +9,8 @@ Kurallar:
 5. Harflerin arasında boşluk olmamalıdır.
 6. Eş anlamlı kelimeler olabildiğince kullanılmamalıdır.
 7. Türkçe kelimelerde en az 2 harf farklı olacaktır.(keman✅ - kemer✅ - kenar✅, tepe✅ - tepki✅ - terfi✅ - tere🚫 )
+8. Özel isim kullanılmamalıdır.
+9. İyelik eki kullanılmamalıdır.
 
 - Diğer dillerdeki kelimelere ve İngilizce dilindeki orjinal kelimelere other_languages klasöründen ulaşılabilir: https://github.com/efecini-plentific/bip-0039-turkish/tree/master/other_languages
 
